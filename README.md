@@ -67,6 +67,7 @@ System setup
     > 127.0.0.1:8000
     
     When the DRF page appears 
+    
     ![My Image](readmeSrc/DRF 1ST PAGE.PNG)
 
 
