@@ -1,0 +1,65 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Optional Bootstrap components here
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+// etc
+
+#second-nav {
+  padding: 0px;
+}
+
+.navbar-brand {
+  margin-left: 16px;
+}
+
+.content {
+  height: 3px;
+}
+
+#content-container {
+  padding-left: 50px;
+}
+
+#first-nav {
+  height: 30px;
+  padding-top: 0px;
+  background-color: #dc3545;
+}
+
+#first-nav span {
+  padding-top: 0px;
+  color: aliceblue;
+}
+
+#project-ul {
+  padding-left: 0px;
+}
+
+#person-ul {
+  padding-left: 0px;
+}
+
+#card-top {
+  padding-left: 0px;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+#person-li {
+  height: 100%;
+}
+
+// #person-img {
+//   height: 25%;
+// }
