@@ -69,7 +69,7 @@ System setup
     When the DRF page appears 
     
     
-    ![My Image](https://github.com/Ragemon/NEIP_django_api/blob/main/readmeSrc/DRF%201ST%20PAGE.PNG?raw=true)
+    ![api view for 127.0.0.1](https://raw.githubusercontent.com/Ragemon/NEIP_django_api/main/readmeSrc/DRF%201ST%20PAGE.png)
 
 
 2. Frontend
@@ -82,7 +82,7 @@ System setup
 Result when you run npm start. Since your database is empty my fields would look different from your.
 
 
- ![My Image](https://raw.githubusercontent.com/Ragemon/NEIP_django_api/main/readmeSrc/dashboard.PNG)
+ ![dashboard](https://raw.githubusercontent.com/Ragemon/NEIP_django_api/main/readmeSrc/dashboard.png)
 
 ## Contributing
 
