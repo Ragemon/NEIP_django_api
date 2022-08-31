@@ -10,8 +10,6 @@ Freelance project
 - [What is NEIP?](#what-makes-saleor-special)
 - [Features](#features)
 - [Installation](#installation)
-- [Documentation](#documentation)
-- [Demo](#demo)
 - [Contributing](#contributing)
 - [Your feedback](#your-feedback)
 - [License](#license)
