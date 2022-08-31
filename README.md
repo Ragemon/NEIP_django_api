@@ -31,48 +31,66 @@ Note: Project can use django gis module so to be safe use linux based local mach
 Code is in two parts in the following directories: `Config` which is the backend and `frontend` which is obviously the react frontend when you cd into the cloned dir.
 
 System setup
-- Backend:
+1. Backend:
 
     Python's Django handles the models.
 
-  
-  1. Create virtual environment
+    1. Create virtual environment
     ```
     - $ pip install virtualenv
     - $ virtualenv env
     - $ source env/bin/activate
     ```
-  2. Install requirements.txt
+    2. Install requirements.txt
     ```
     - $ cd config
     - $ pip install -r requirements.txt
     ```
-  3. Initial migration
+    3. Initial migration
     ```
      - $ python manage.py makemigrations
      - $ python manage.py migrate
      - $ python manage.py check
     ```
-  4. Create django superuser
+    4. Create django superuser
     ```
     python manage.py createsuperuser
     ``` 
- follow the prompt to create super user
-  5. Check and run dev server
+      follow the prompt to create super user
+ 
+    5. Check and run dev server
     ```
     - $ python manage.py check
     - $ python manage.py runserver
     ```
+    
     visit 
+    
     > 127.0.0.1:8000
     
     When the DRF page appears 
 
 
 
-- Frontend
+2. Frontend
    ```
    cd frontend
    npm install 
    npm start
-   ``
+   ```
+## Contributing
+
+I would love your contributions.
+
+
+
+## Your feedback
+
+Do reach me at : 
+> cj@deepsyntax.org
+## License
+
+Disclaimer: Everything you see here is open and free to use as long as you comply with the [license](https://opensource.org/licenses/MIT). There are no hidden charges. We promise to do our best to fix bugs and improve the code.
+:)
+
+cj@deepsyntax.org
