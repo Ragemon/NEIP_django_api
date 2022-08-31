@@ -33,11 +33,11 @@ Code is in two parts in the following directories: `Config` which is the backend
 System setup
 - Backend:
 
-Python's Django handles the models.
+    Python's Django handles the models.
 
   
   1. Create virtual environment
-    ````
+    ```
     - $ pip install virtualenv
     - $ virtualenv env
     - $ source env/bin/activate
@@ -56,5 +56,23 @@ Python's Django handles the models.
   4. Create django superuser
     ```
     python manage.py createsuperuser
+    ``` 
+ follow the prompt to create super user
+  5. Check and run dev server
     ```
-    follow the prompt to create super user
+    - $ python manage.py check
+    - $ python manage.py runserver
+    ```
+    visit 
+    > 127.0.0.1:8000
+    
+    When the DRF page appears 
+
+
+
+- Frontend
+   ```
+   cd frontend
+   npm install 
+   npm start
+   ``
