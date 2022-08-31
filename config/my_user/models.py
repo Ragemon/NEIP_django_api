@@ -77,7 +77,7 @@ class Person(AbstractUser):
 
     objects = CustomUserManager()
 
-    def save(self):
+    def save(self, *args, **kwargs):
         super().save()  # saving image first
 
         img = Image.open(self.profile_pic.path)  # Open image using self
